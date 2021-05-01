@@ -1,0 +1,88 @@
+.container2{
+  width: 85%;
+  margin: 0 auto;
+}
+
+.third-page{
+  padding-top: 30px;
+
+}
+
+.about-us{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+  background-color: yellow;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+}
+
+.about-us-main-text{
+  color: #151515;
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.about-us-text{
+  color: #151515;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.top-products-nav{
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: #151515;
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.top-products-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 48vh;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.top-products-books-example{
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.top-products-books-img{
+
+}
+
+.top-products-books-name{
+  font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.top-products-books-raiting{
+  color: #ffb503;
+}
+
+.top-products-books-price{
+  font-size: 16px;
+  line-height: 16px;
+  margin: 12px 0 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+}
+
+
+#top-products-books-last{
+  padding-right: 20px;
+}

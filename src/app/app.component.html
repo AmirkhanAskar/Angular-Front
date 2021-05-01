@@ -1,0 +1,53 @@
+<div class="main-nav">
+  <nav class="header">
+    <img src="assets/images/logos/logoMain.png" alt="logo">
+
+    <form class="form-inline">
+      <input (click)="searchAuthor()" class="form-control mr-sm-2" id="main-searchiing-field" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" id="main-searching-button" type="submit"><i class="fas fa-search" id="main-searching-font"></i>Search</button>
+    </form>
+
+    <a class="main-cart" routerLink="/login">
+      <p *ngIf="!logged" id="cart-words-main">Account</p>
+      <p *ngIf="logged" id="cart-words-main2">{{user.username}}</p>
+      <i class="fas fa-user-circle" id="cart-logo"></i>
+    </a>
+
+  </nav>
+
+</div>
+
+<div class="second-navs-wrapper">
+
+  <div class="second-navs">
+
+    <div class="dropdown">
+      <button class="dropbtn" routerLink="/home">HOME</button>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn" routerLink="/genres">CATEGORIES</button>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn" routerLink="/authors">AUTHORS</button>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn" href="#about-us container" routerLink="/books">BOOKS</button>
+    </div>
+
+    <div class="dropdown">
+      <button class="dropbtn">CONTACTS</button>
+    </div>
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>
+
+
+<!--<div *ngIf="logged">-->
+<!--  <router-outlet></router-outlet>-->
+<!--  <button (click)="logout()">Logout</button>-->
+<!--</div>  -->

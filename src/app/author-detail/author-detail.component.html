@@ -1,0 +1,10 @@
+<div class="author-detail-styles">
+  <h2>{{author.name}}</h2>
+  <img src="{{author.image}}" alt="photo-of-the-writer" class="author-detail-photo">
+  <h6>About the writer</h6>
+  <p>{{author.biography}}</p>
+</div>
+<div *ngFor="let book of books">
+  <h6>{{book.name}}</h6>
+  <img src="{{book.image}}" alt="{{book.name}}">
+</div>

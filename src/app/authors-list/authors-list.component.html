@@ -1,0 +1,20 @@
+<div class="list-of-authors">
+
+  <h1>Authors List</h1>
+
+  <div *ngFor="let author of authors" class="main-div-of-listgroup" routerLink="/authors/{{author.id}}">
+
+    <img src="{{author.image}}" alt="author-images" class="authors-images">
+
+    <div class="authors-names-div">
+
+      <h2>
+        {{author.name}}
+      </h2>
+
+    </div>
+
+  </div>
+
+
+</div>
